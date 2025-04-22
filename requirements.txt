@@ -1,8 +1,21 @@
-streamlit
-pandas
-numpy
-plotly
-crewai
-scipy
-python-dotenv
-xlsxwriter
+# Core web UI
+streamlit>=1.33
+
+# Data wrangling & numerics
+pandas>=2.2
+numpy>=1.26
+
+# Charting
+plotly>=5.20
+
+# CrewAI orchestration
+crewai>=0.31.0
+
+# Modern SQLite (solves ChromaDB import crash)
+pysqlite3-binary~=0.5.2
+
+# Image handling for workflow diagrams
+Pillow>=10.0
+
+# Excel reading support for pandas.read_excel()
+openpyxl>=3.1
